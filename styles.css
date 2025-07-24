@@ -1,0 +1,74 @@
+* Reset del Documento */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+   /* Fuentes*/
+   --nunito:"Nunito Sans", sans-serif;
+   --montserrat:"Montserrat", sans-serif;
+}
+
+.contenedor-principal{
+   width: 100%;
+   height: 100vh;
+}
+
+.navegacion{
+   width: 100%;
+   text-align: center;
+   padding: 20px;
+}
+
+.navegacion h1{
+   text-transform: capitalize;
+   font-family: var(--montserrat);
+}
+
+.main{
+   background-color: rgb(242, 242, 242);
+   display: flex;
+   flex-direction: column;
+
+}
+
+.post{
+   width: 35%;
+   height: 500pxpx;
+   margin: 0 auto;
+   padding: 5px 0px 10px 0px;
+   background-color: white;
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.post-encabezado{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: var(--nunito);
+   padding: 5px;
+}
+
+.post-encabezado p{
+   color: rgb(200, 200, 200);
+   padding: 10px 10px;
+}
+
+.post-cuerpo{
+   width: 100%;
+}
+
+.post-cuerpo img{
+   display: block;
+   width: 100%;
+   height: 350px;
+}
+
+.post-pie{
+   padding: 20px;
+   font-family: var(--nunito);
+}
