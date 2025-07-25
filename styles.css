@@ -26,9 +26,11 @@
 .navegacion h1{
    text-transform: capitalize;
    font-family: var(--montserrat);
+   font-size: 40px;
 }
 
 .main{
+   width: 100%;
    background-color: rgb(242, 242, 242);
    display: flex;
    flex-direction: column;
@@ -39,7 +41,7 @@
    width: 35%;
    height: 500pxpx;
    margin: 0 auto;
-   padding: 5px 0px 10px 0px;
+   /* padding: 5px 0px 10px 0px; */
    background-color: white;
    margin-top: 25px;
    margin-bottom: 25px;
