@@ -20,7 +20,6 @@
 .navegacion{
    width: 100%;
    text-align: center;
-   padding: 20px;
 }
 
 .navegacion h1{
@@ -38,7 +37,7 @@
 }
 
 .post{
-   width: 35%;
+   width: 450px;
    height: 500pxpx;
    margin: 0 auto;
    /* padding: 5px 0px 10px 0px; */
